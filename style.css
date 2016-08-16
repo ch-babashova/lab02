@@ -1,0 +1,230 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+/* umumi classlar*/
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.red{
+	background: red;
+	color: white;
+}
+.green{
+	background: green;
+	color: white;
+}
+.blue{
+	background: blue;
+	color: white;
+}
+.grey{
+	background: grey;
+	color: white;
+}
+.black{
+	background: black;
+	color: white;
+}
+.yellow{
+	background: yellow;
+	color: white;
+}
+.purple{
+	background: purple;
+	color: white;
+}
+.aqua{
+	background:aqua;
+	color: white;
+}
+.pink{
+	background: pink;
+	color: white;
+}
+.lightgrey{
+	background: lightgrey;
+	color: red;
+}
+.vertical{
+	height: 20px;
+	width: 100%;
+}
+#main{
+	width: calc(100% - 40px);
+	margin: 0 auto;
+}
+	
+	/* header section */
+
+#header{
+	height: 100px;
+	width: 100%;
+	margin-top: 10px;
+}
+.hdiv1 {
+	height: 100%;
+	width: 20%;
+}
+.hdiv2
+ {
+	height: 50%;
+	width: 30%;
+	margin-top: 50px;
+}
+.search {
+	height: 100%;
+	width: 80%;
+}
+.ok{
+	height: 100%;
+	width: 20%;
+}
+/* menu section*/
+
+#menu {
+	width: 100%;
+	height:80px;
+	}
+#menu  ul{
+	padding:0;
+	margin:0;
+	}
+
+#menu  ul li{
+	float: left;
+	list-style-type:none;
+	padding: 31px 60px;
+}
+.border{
+	border-right: 1px solid black;
+}
+/* banner section */
+
+#banner{
+	width: 100%;
+	height: 400px;
+}
+.block{
+	display: block;
+
+}
+
+.bannerDiv1{
+	height: 100%;
+	width: 70%;
+}
+.bannerDiv2{
+	height: 100%;
+	width: 30%;
+}
+.bannerDiv2Divs{
+	height: 20%;
+	width: 100%;
+	border-bottom: 1px solid black;
+
+}
+.bannerDiv2Divs:last-child {
+	border-bottom: none;
+}	
+	/* content section */
+	
+#content{
+	width: 100%;
+	height: 600px;
+	
+}
+.cntDiv1{
+	width: calc(70% - 20px);
+	height: 100%;
+	margin-right: 20px;
+}
+
+.cntDiv2{
+	width: 30%;
+	height: 100%;
+}
+
+.cntDiv2 div:first-child{
+	width: 100%;
+	height: 46px;
+}
+
+.cntDiv2 div:last-child{
+	width: 100%;
+	height: 554px;
+}
+.up,.down{
+	width: 100%;
+	height: 230px;
+}
+
+.up div:first-child{
+	width: 100%;
+	height: 20%;
+}
+
+.up div:last-child{
+	width: 100%;
+	height: 80%;
+}
+.middle{
+	width: 100%;
+	height: calc(140px - 40px);
+	margin:20px 0px;
+}
+.down div {
+	width: calc(25% - 15px);
+	height: 100%;
+	margin:0 10px;
+	}
+.down div:first-child{
+	margin-left: 0;
+}
+.down div:last-child{
+	margin-right: 0;
+}
+/* footer */
+#footer{
+	width: 100%;
+	display: table;
+	position: relative;
+
+}
+.first{
+	width: 25%;
+	padding: 20px 0 20px 0;
+	display: table;
+
+}
+.firstTop, .firstMiddle{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.firstBottom{
+	width: 25%;
+	height: 40px;
+}
+.second{
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+.a{
+	width: 90px;
+	height: 90px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+.a:last-child{
+	margin-right: 0;
+}
